@@ -76,8 +76,8 @@ window.addEventListener('DOMContentLoaded', function() {
   // let NooberXLButton = document.querySelector('#noober-xl-filter')
   // let NooberXButton = document.querySelector('#noober-x-filter')
   let AllButtons = document.querySelectorAll('.filter-button')
-  var button = new Array()
-  let noobertype = ''
+  var button = new Array() //array that will be set to the query for a selected button
+  let noobertype = '' // type of service expected for that button 
 
   for (let j = 0; j < AllButtons.length; j++){
     
